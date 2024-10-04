@@ -1,4 +1,4 @@
-import React, { sueState, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import DisplayArray from './DisplayArray';
 import AlgorithmControls from './AlgorithmControls'
 
@@ -22,7 +22,7 @@ const VisualSort =  () => {
   
     const startSort = async () => {
       setIsSorting(true);
-      const response = await fetch('/sort', {
+      const response = await fetch('http://localhost:5000/sort', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

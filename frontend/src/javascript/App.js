@@ -1,8 +1,6 @@
-import logo from '../logo.svg';
 import React, { useState } from 'react';
 import VisualSort from '../components/VisualSort';
 import '../css/styles.css'
-import '../css/App.css'
 
 // function App() {
 //   return (
